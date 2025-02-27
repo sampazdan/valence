@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Simple test script for Valence
+# test script
 
 cd build
 ctest --verbose
