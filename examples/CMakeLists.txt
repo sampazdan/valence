@@ -1,0 +1,3 @@
+add_executable(basic_simulation basic_simulation.cpp)
+target_link_libraries(basic_simulation PRIVATE valence)
+target_include_directories(basic_simulation PRIVATE ${CMAKE_SOURCE_DIR}/include) 
